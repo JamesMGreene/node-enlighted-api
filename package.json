@@ -1,0 +1,36 @@
+{
+  "name": "enlighted-api",
+  "version": "0.1.0",
+  "description": "A Node.js client for the Enlighted Energy Manager REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt travis --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesMGreene/node-enlighted-api.git"
+  },
+  "keywords": [
+    "enlighted"
+  ],
+  "author": {
+    "name": "James M. Greene",
+    "email": "james.m.greene@gmail.com",
+    "url": "https://jamesmgreene.github.io/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JamesMGreene/node-enlighted-api/issues"
+  },
+  "homepage": "https://github.com/JamesMGreene/node-enlighted-api#readme",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "string-template": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0"
+  }
+}
